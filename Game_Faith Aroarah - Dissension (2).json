@@ -1,0 +1,71 @@
+{
+  "name": "Faith Aroarah - Dissension",
+  "menuBackgroundImage": "https://ibb.co/Qj19nL5f",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://ibb.co/Qj19nL5f"
+    ],
+    "decksUrl": "https://www.dropbox.com/scl/fi/fzs7t3haosrkqnn7uq18k/CardList-8.json?rlkey=vlm3exqymd9edlnl98158paoc&st=0zfnacvt&dl=0"
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://www.dropbox.com/scl/fi/fzs7t3haosrkqnn7uq18k/CardList-8.json?rlkey=vlm3exqymd9edlnl98158paoc&st=v7pn8se7&dl=0",
+    "cardBack": ""
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "Classic Deck"
+    ],
+    "formats": []
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "You may mulligan as many times you as you desire",
+        "startingHandSize": 7,
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Gauge",
+          "Selected card"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "section": "Selected card",
+              "style": false
+            },
+            {
+              "section": "Gauge",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "04bb3459-a0aa-4783-ade7-0916530e586d": "Selected card"
+        },
+        "autoPlayFromStack": {},
+        "sectionsDict": {}
+      }
+    }
+  }
+}
